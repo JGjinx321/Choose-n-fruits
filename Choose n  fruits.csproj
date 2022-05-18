@@ -1,0 +1,71 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{64432E63-935F-45F1-A765-9279242A99F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Choose_n__fruits</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Choosin%27Fruits n%27.css" />
+    <Content Include="ContactUs.html" />
+    <Content Include="Fruits.html" />
+    <Content Include="Home.html" />
+    <Content Include="NewWebImages\background fruit.jpg" />
+    <Content Include="NewWebImages\Black Sapote.jpg" />
+    <Content Include="NewWebImages\Cherimoya.jpg" />
+    <Content Include="NewWebImages\Dragon Fruit.jpg" />
+    <Content Include="NewWebImages\Finger Limes.jpg" />
+    <Content Include="NewWebImages\Fruit Home page.jpg" />
+    <Content Include="NewWebImages\Fuyu Persimmon.jpg" />
+    <Content Include="NewWebImages\Graduation Ye.jpg" />
+    <Content Include="NewWebImages\Jackfruit.jpg" />
+    <Content Include="NewWebImages\Kiwano.jpg" />
+    <Content Include="NewWebImages\Kiwi.jpg" />
+    <Content Include="NewWebImages\Pacay beans.jpg" />
+    <Content Include="NewWebImages\Prickly pear fruit.jpg" />
+    <Content Include="NewWebImages\Rambutan.jpg" />
+    <Content Include="NewWebImages\SoundsOfLife.jpg" />
+    <Content Include="NewWebImages\Star fruit.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
