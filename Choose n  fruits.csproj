@@ -43,26 +43,26 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Choosin%27Fruits n%27.css" />
-    <Content Include="ContactUs.html" />
-    <Content Include="Fruits.html" />
-    <Content Include="Home.html" />
-    <Content Include="NewWebImages\background fruit.jpg" />
-    <Content Include="NewWebImages\Black Sapote.jpg" />
-    <Content Include="NewWebImages\Cherimoya.jpg" />
-    <Content Include="NewWebImages\Dragon Fruit.jpg" />
-    <Content Include="NewWebImages\Finger Limes.jpg" />
-    <Content Include="NewWebImages\Fruit Home page.jpg" />
-    <Content Include="NewWebImages\Fuyu Persimmon.jpg" />
-    <Content Include="NewWebImages\Graduation Ye.jpg" />
-    <Content Include="NewWebImages\Jackfruit.jpg" />
-    <Content Include="NewWebImages\Kiwano.jpg" />
-    <Content Include="NewWebImages\Kiwi.jpg" />
-    <Content Include="NewWebImages\Pacay beans.jpg" />
-    <Content Include="NewWebImages\Prickly pear fruit.jpg" />
-    <Content Include="NewWebImages\Rambutan.jpg" />
-    <Content Include="NewWebImages\SoundsOfLife.jpg" />
-    <Content Include="NewWebImages\Star fruit.jpg" />
+    <Content Include="NewWebImages\CSS\Choosin%27Fruits n%27.css" />
+    <Content Include="Views\ContactUs.html" />
+    <Content Include="Views\Fruits.html" />
+    <Content Include="Views\Home.html" />
+    <Content Include="NewWebImages\Images\background fruit.jpg" />
+    <Content Include="NewWebImages\Images\Black Sapote.jpg" />
+    <Content Include="NewWebImages\Images\Cherimoya.jpg" />
+    <Content Include="NewWebImages\Images\Dragon Fruit.jpg" />
+    <Content Include="NewWebImages\Images\Finger Limes.jpg" />
+    <Content Include="NewWebImages\Images\Fruit Home page.jpg" />
+    <Content Include="NewWebImages\Images\Fuyu Persimmon.jpg" />
+    <Content Include="NewWebImages\Images\Graduation Ye.jpg" />
+    <Content Include="NewWebImages\Images\Jackfruit.jpg" />
+    <Content Include="NewWebImages\Images\Kiwano.jpg" />
+    <Content Include="NewWebImages\Images\Kiwi.jpg" />
+    <Content Include="NewWebImages\Images\Pacay beans.jpg" />
+    <Content Include="NewWebImages\Images\Prickly pear fruit.jpg" />
+    <Content Include="NewWebImages\Images\Rambutan.jpg" />
+    <Content Include="NewWebImages\Images\SoundsOfLife.jpg" />
+    <Content Include="NewWebImages\Images\Star fruit.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Category.cs" />
