@@ -31,7 +31,23 @@ namespace Choose_n__fruits.Models
 
         public Customer(Customer customer)
         {
+            customer.FirstName = FirstName;
 
+            customer.LastName = LastName;
+
+            customer.BillingAddress = BillingAddress;
+
+            customer.PhoneNumber = PhoneNumber;
+
+            customer.Email = Email;
+
+            customer.Street = Street;
+
+            customer.City = City;
+
+            customer.State = State;
+
+            customer.ZipCode = ZipCode;
         }
     }
 }

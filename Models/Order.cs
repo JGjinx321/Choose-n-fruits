@@ -9,6 +9,8 @@ namespace Choose_n__fruits.Models
     {
         public Guid? OrderId { get; set; }
 
+        public string ProductName{ get; set; }
+
         public DateTime ShippedDate { get; set; }
 
         public double Total { get; set; }
@@ -17,7 +19,11 @@ namespace Choose_n__fruits.Models
 
         public Order(Order order)
         {
+            order.OrderId = OrderId;
 
+            order.ShippedDate = ShippedDate;
+
+            order.Total = Total;
         }
 
     }

@@ -23,7 +23,10 @@ namespace Choose_n__fruits.Models
 
         public OrderDetails(List<Order> orders)
         {
-
+            foreach(Order o in orders)
+            {
+                Console.WriteLine(o.ProductName);
+            }
         }
     }
 }

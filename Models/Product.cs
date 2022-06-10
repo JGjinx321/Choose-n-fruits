@@ -27,7 +27,21 @@ namespace Choose_n__fruits.Models
 
         public Product(Product product)
         {
+            product.ProductName = ProductName;
 
+            product.ProductColor = ProductColor;
+
+            product.ProductSC = ProductSC;
+
+            product.ProductDescription = ProductDescription;
+
+            product.ProductSkinType = ProductSkinType;
+
+            product.ProductPrice = ProductPrice;
+
+            product.CategoryId = CategoryId;
+
+            product.QuantityInStock = QuantityInStock;
         }
     }
 }
